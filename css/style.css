@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.list-name {
+    margin: 5px;
+}
+
+.list-name:hover {
+    color: rgb(224, 27, 106);
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    width: 710px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.main {
+    background-color: gray;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.main:hover {
+    background-color: rgb(90, 184, 212);
+    color: grey;
+    cursor: pointer;
+}
+
+.column1 {
+    background-color: rgb(224, 27, 106);
+    height: 100px;
+    width: 100px;
+}
+
+.text-tab {
+    background-color: rgb(204,204,204);
+    color: #fff;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text-tab:hover {
+    background-color: rgb(224, 27, 106);
+    transition: 0.3s ease-in-out;
+}
+
+ol {
+    width: 300px;
+    list-style: none;
+}
+
+ol li {
+    font-size: 22px;
+    color: #fff;
+    padding: 20px 30px;
+    margin: 10px 0;
+    background-color: rgb(204,204,204);
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: all .4s;
+    z-index: 10;
+}
+
+ol li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:60px;
+    height: 100%;
+    background-color: rgb(224, 27, 106);
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+ol li:hover::before {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aqua;
+    height: 700px;
+    font-size: 20px;
+}
+
+.main1 {
+    border: 3px solid black;;
+}
+
+.cabecalho {
+    background-color: beige;
+    display: flex;
+    height: 125px;
+    width: 1850px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 70px;
+    margin: 50px;
+}
+
+.dados {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 70px;
+    margin:  50px;
+}
+
+.corpo {
+    display: flex;
+    background-color: blue;
+    height: 350px;
+    width: 1850px;
+    justify-content: space-around;
+}
+
+.menu-vertical {
+    background-color: burlywood;
+    margin-top: 5px;
+    height: 300px;
+    width: 150px;
+}
+
+.menu-horizontal {
+    background-color: cadetblue;
+    margin-top: 5px;
+    height: 40px;
+    width: 90%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: blueviolet;
+    height: 125px;
+    width: 1850px;
+}
+
+.contatos {
+    background-color: coral;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+}
